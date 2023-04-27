@@ -1,0 +1,84 @@
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    background-color: #1C1E53;
+}
+
+
+.edu a {
+    position: absolute;
+    left: 4.86%;
+    right: 86.25%;
+    top: 31.11%;
+    bottom: 31.11%;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.nav-menu {
+    position: absolute;
+    left: 600px;
+    top: 30px;
+    bottom: 36.67%;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    margin-right: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.card:hover{
+        color: #9c8bd1;
+        background-color: #0ecbff;
+        transition: 0.3s;
+        cursor: pointer;
+        transform:scale(1.1)
+      
+      
+      }
+.card-body {
+    background-color: #ffffff;
+    padding: 5px;
+}
+.card-image-top {
+    width: 350px;
+    height: 200px;
+}
+
+.text-white {
+        color: #474747 !important;
+        gap: 20px;
+      }
+.pagination {
+    align-content: center;
+    padding: 30px;
+}
+p {
+    color: #474747;
+}
+h2 {
+    margin-top: 100px;
+}
+.btn {
+    color: #121212;
+}
+.icon1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
