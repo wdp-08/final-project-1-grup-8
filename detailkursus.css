@@ -41,9 +41,19 @@
     line-height: 150%;
     color: #FFFFFF;
 }
+
+.card:hover{
+        color: #9c8bd1;
+        background-color: #0ecbff;
+        transition: 0.3s;
+        cursor: pointer;
+        transform:scale(1.1)
+      
+      
+      }
 .detail{
     padding: 10px;
-    margin-top: 10%;
+    margin-top: 5%;
     justify-content: center;
 }
 h5,h6{
@@ -52,14 +62,15 @@ h5,h6{
 .img-detail {
     width: 500px;
 }
-p, ul, li{
+p, ul li{
     justify-content: center;
     text-align: left;
     color: rgb(93, 91, 91);
+    width: 80%;
 }
 .desc {
     margin-top: 5%;
     justify-content: center;
-    margin-left: 10%;
+    margin-left: 10%;  
 }
 
