@@ -1,0 +1,42 @@
+.todos{
+    position: absolute;
+width: 179px;
+height: 33px;
+left: 150px;
+top: 150px;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 33px;
+/* identical to box height */
+
+letter-spacing: -0.01em;
+
+color: #000000;
+}
+
+table{
+    border-collapse: collapse;
+    width: 75%;
+    position: absolute;
+    left: 11%;
+    top: 33%;
+}
+th{
+    border: 1px solid #EEF4FA;
+    background-color: #1C1E53;
+    text-align:center ;
+    padding: 5px;
+    color: #EEF4FA;
+}
+
+td{
+    border: 1px solid #1C1E53;
+    background-color:#EEF4FA ;
+    text-align:left;
+    padding: 5px;
+    color: #232536; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
