@@ -1,0 +1,162 @@
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    background-color: #1C1E53;
+}
+
+
+.edu a {
+    position: absolute;
+    left: 4.86%;
+    right: 86.25%;
+    top: 31.11%;
+    bottom: 31.11%;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.nav-menu {
+    position: absolute;
+    left: 600px;
+    top: 30px;
+    bottom: 36.67%;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    margin-right: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.home {
+    position: absolute;
+    width: 100%;
+    height: 579px;
+    left: 0px;
+    top: 90px;
+    background-color: #1C1E53;
+}
+
+.text-home {
+    position: absolute;
+    width: 597px;
+    height: 330px;
+    left: 70px;
+    top: 112px;
+}
+
+.text-home h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.text-home p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.text-home button {
+    background: #FCD980;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    width: 185px;
+    height: 54px;
+    letter-spacing: 0.01em;
+    color: #282938;
+}
+
+.right-pict {
+    position: absolute;
+    width: 577px;
+    height: 370.97px;
+    left: 700px;
+    bottom: 116.03px;
+    top: 92px;
+}
+
+.kursus {
+    margin-top: 60%;
+}
+
+.card:hover{
+        color: #9c8bd1;
+        background-color: #0ecbff;
+        transition: 0.3s;
+        cursor: pointer;
+        transform:scale(1.1)
+      
+      
+      }
+a {
+    text-decoration: none;
+    color: #2d2e2e;
+}
+a:hover {
+    color: #e6b3e5;
+}
+.card-body {
+    background-color: #ffffff;
+    padding: 5px;
+    margin-top: 0%;
+}
+.card-image-top {
+    width: 350px;
+    height: 200px;
+}
+
+.text-white {
+        color: #474747 !important;
+        gap: 20px;
+      }
+.pagination {
+    align-content: center;
+    padding: 30px;
+}
+p {
+    color: #474747;
+}
+h2 {
+    margin-top: 100px;
+}
+h1 {
+    color: #2e2c2c;
+    margin-left: 100px;
+}
+h1 {
+    margin-top: 50%;
+}
+.btn {
+    color: #121212;
+}
+.icon1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
