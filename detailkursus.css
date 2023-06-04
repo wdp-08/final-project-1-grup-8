@@ -6,8 +6,9 @@
     top: 0px;
     background-color: #1C1E53;
 }
-
-
+.navbar{
+    display: none;
+}
 .edu a {
     position: absolute;
     left: 4.86%;
@@ -29,6 +30,11 @@
     left: 600px;
     top: 30px;
     bottom: 36.67%;
+}
+img{
+    width: 80%;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-menu a {

@@ -2,6 +2,30 @@
 const btnAdds = document.querySelectorAll("#btn_add")
 btnAdds.forEach(e => {
     e.addEventListener("click", event => {
+        let timerInterval
+        Swal.fire({
+            title: 'Kursus telah berhasil ditambahkan',
+            html: 'Loading....',
+            position: 'top-start',
+            width:400,
+            timer: 2000,
+            timerProgressBar: true,
+            didOpen: () => {
+                Swal.showLoading()
+                const b = Swal.getHtmlContainer().querySelector('b')
+                timerInterval = setInterval(() => {
+                    b.textContent = Swal.getTimerLeft()
+                }, 100)
+            },
+            willClose: () => {
+                clearInterval(timerInterval)
+            }
+        }).then((result) => {
+            /* Read more about handling dismissals below */
+            if (result.dismiss === Swal.DismissReason.timer) {
+                console.log('I was closed by the timer')
+            }
+        })
         const row = e.parentElement.parentElement.parentElement
         const children = row.childNodes
 
@@ -43,7 +67,7 @@ function showData() {
         html += "<td>" + element.judul + "</td>";
         html += "<td>" + element.durasi + "</td>";
         html += "<td>" + element.jumlah + "</td>";
-        html += '<td><button type="button" class="btn btn-danger" onclick="deleteData(' +index+ ')">Delete</button></td>';
+        html += '<td><button type="button" class="btn btn-danger" onclick="deleteData(' +index+ ')">Delete</button>'+'&nbsp&nbsp<button type="button" class="btn btn-danger" id="my-button" onclick="toggleBox()">Update</button></td>';
         html += "</tr>";
     })
 
@@ -64,3 +88,13 @@ function deleteData(index) {
     localStorage.setItem("dataKursus", JSON.stringify(dataKursus));
     showData();
 }
+
+document.querySelector("#btn_add").addEventListener("click", (e) =>{
+    btnAdds = e.btnAdds;
+    if(btnAdds.classList.contains("edit")) {
+        selectedRow = btnAdds.parentElement.parentElement;
+        document.querySelector("#judul").value = selectedRow.children[0].textContent;
+        document.querySelector("#durasi").value = selectedRow.children[0].textContent;
+        document.querySelector("#jumlah").value = selectedRow.children[0].textContent;
+    }
+})

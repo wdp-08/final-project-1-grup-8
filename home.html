@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,54 +7,158 @@
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"
+        defer
+      ></script>
+      <script
+      src="https://kit.fontawesome.com/dfabc0038b.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
     <title>EDUFREE</title>
 </head>
 
 <body>
     <!-- NavBar -->
     <div class="navbar">
-        <h1 class="edu"><a href="">[EDUFREE]</a></h1>
-        <ul class="nav-menu">
-            <a href="#HOME">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" fill="currentColor" class="bi bi-house"
-                    viewBox="0 0 16 15">
-                    <path
-                        d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
-                </svg> HOME</a>
-            <a href="#ABOUT"><svg xmlns="http://www.w3.org/2000/svg" width="16" fill="currentColor"
-                    class="bi bi-file-person" viewBox="0 0 16 15">
-                    <path
-                        d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z" />
-                    <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                </svg> ABOUT US</a>
-            <a href="kursus.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" fill="currentColor" class="bi bi-book"
-                    viewBox="0 0 16 14">
-                    <path
-                        d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
-                </svg> KURSUS</a>
-            <a href="blog.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" fill="currentColor" class="bi bi-globe"
-                    viewBox="0 0 16 15">
-                    <path
-                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
-                </svg> BLOG</a>
-            <a href="#CONTACT"><svg xmlns="http://www.w3.org/2000/svg" width="16" fill="currentColor"
-                    class="bi bi-telephone" viewBox="0 0 16 15">
-                    <path
-                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-                </svg> CONTACT US</a>
-            <a href="todos.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" fill="currentColor" class="bi bi-list-task"
-                    viewBox="0 0 16 14">
-                    <path fill-rule="evenodd"
-                        d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5H2zM3 3H2v1h1V3z" />
-                    <path
-                        d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9z" />
-                    <path fill-rule="evenodd"
-                        d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V7zM2 7h1v1H2V7zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H2zm1 .5H2v1h1v-1z" />
-                </svg> TODOS</a>
-        </ul>
+      <h1 class="edu"><a href="">[EDUFREE]</a></h1>
+      <ul class="nav-menu">
+        <a href="#HOME">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            fill="currentColor"
+            class="bi bi-house"
+            viewBox="0 0 16 15"
+          >
+            <path
+              d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"
+            />
+          </svg>
+          HOME</a
+        >
+        <a href="#ABOUT"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            fill="currentColor"
+            class="bi bi-file-person"
+            viewBox="0 0 16 15"
+          >
+            <path
+              d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"
+            />
+            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+          </svg>
+          ABOUT US</a
+        >
+        <a href="kursus.html"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            fill="currentColor"
+            class="bi bi-book"
+            viewBox="0 0 16 14"
+          >
+            <path
+              d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"
+            />
+          </svg>
+          KURSUS</a
+        >
+        <a href="blog.html"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            fill="currentColor"
+            class="bi bi-globe"
+            viewBox="0 0 16 15"
+          >
+            <path
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"
+            />
+          </svg>
+          BLOG</a
+        >
+        <a href="#CONTACT"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            fill="currentColor"
+            class="bi bi-telephone"
+            viewBox="0 0 16 15"
+          >
+            <path
+              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+            />
+          </svg>
+          CONTACT US</a
+        >
+        <a href="todos.html"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            fill="currentColor"
+            class="bi bi-list-task"
+            viewBox="0 0 16 14"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5H2zM3 3H2v1h1V3z"
+            />
+            <path
+              d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9z"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V7zM2 7h1v1H2V7zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H2zm1 .5H2v1h1v-1z"
+            />
+          </svg>
+          TODOS</a
+        >
+      </ul>
+     
+      
     </div>
 
     <!-- End NavBar -->
+         <!-- navbar2 -->
+         <div class="navbar2">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">[EDUFREE]</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"><i class="fa-solid fa-duotone fa-bars fa-shake fa-2xl"style="color: #fafcff;"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link aktif" aria-current="page" href="home.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="home.html#about2">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="kursus.html">KURSUS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="todos.html">TODOS</a>
+                    </li>
+            
+                  </ul>
+           
+                </div>
+              </div>
+            </nav>
+          </div>
+      
+          <!-- End NavBar -->
 
     <!-- Start Home -->
     <section id="HOME" class="home">
@@ -355,7 +458,198 @@
             </div>
         </div>
     </section>
+    <!-- responsiv -->
+    <div class="container box">
+      <div class="container content">
+        <p>
+          Edufree diharapkan bisa menjadi layanan yang bermanfaat bagi
+          kedepannya dalam bidang pendidikan
+        </p>
+      </div>
 
+      <!-- slider -->
+
+      <div class="content-slidee">
+        <div class="imgslide fadee">
+          <div class="numberslidee">1 / 6</div>
+          <img class="gambar" src="img/kursus1.jpg" alt="" />
+          <div class="text">DASAR PEMOGRAMAN WEB</div>
+        </div>
+
+        <div class="imgslide fadee">
+          <div class="numberslidee">2 / 6</div>
+          <img class="gambar" src="img/kursus2.jpg" alt="" />
+          <div class="text">DIGITAL MARKETING</div>
+        </div>
+
+        <div class="imgslide fadee">
+          <div class="numberslidee">3 / 6</div>
+          <img class="gambar" src="img/kursus3.png" alt="" />
+          <div class="text">DATA SCIENCE DASAR</div>
+        </div>
+        <div class="imgslide fadee">
+          <div class="numberslidee">4 / 6</div>
+          <img class="gambar" src="img/kursus4.jpg" alt="" />
+          <div class="text">PUBLIK SPEAKING</div>
+        </div>
+        <div class="imgslide fadee">
+          <div class="numberslidee">5/ 6</div>
+          <img class="gambar" src="img/kursus5.jpg" alt="" />
+          <div class="text">JARINGAN KOMPUTER DASAR</div>
+        </div>
+        <div class="imgslide fadee">
+          <div class="numberslidee">6/ 6</div>
+          <img class="gambar" src="img/kursus6.jpg" alt="" />
+          <div class="text">UI/UX DESIGN</div>
+        </div>
+        <a class="prev" onClick="nextslide(-1)">&#10094;</a>
+        <a class="next" onClick="nextslide(1)">&#10095;</a>
+      </div>
+      <div class="container">
+        <div class="pagee">
+          <span class="dot" onClick="dotslide(1)"></span>
+          <span class="dot" onClick="dotslide(2)"></span>
+          <span class="dot" onClick="dotslide(3)"></span>
+          <span class="dot" onClick="dotslide(4)"></span>
+          <span class="dot" onClick="dotslide(5)"></span>
+          <span class="dot" onClick="dotslide(6)"></span>
+        </div>
+      </div>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#exampleModal"
+      >
+        Tambah Kursus
+      </button>
+    </div>
+    <marquee> 
+      <h5>Bangun dan wujudkan cita bersama [EDUFREE]</h5>
+    </marquee>
+    <div class="about2" id="about2">
+        <div class="desc2">
+          <h5>About Us</h5>
+          <p class="textcontentabout">EDUFREE Layanan E-Learning Gratis Untuk Membantu Kamu Bertumbuh</p>
+          <p class="textcontentabout">
+            Edufree diharapkann bisa menjadi layanan yang bermanfaat bagi
+            kedepanya dalam bidang pendidikan
+          </p>
+        </div>
+        <div class="img-about2">
+          <img src="img/unsplash_vbxyFxlgpjM.png" alt="" />
+        </div>
+    </div>
+    <div class="container-text keuntungan" >
+      <h5>Keuntungan Bergabung Dengan E-Learning EDUFREE</h5>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img src="img/1.png" alt="" />
+            <h6 class="card-title mt-3">Kursus Gratis</h6>
+            <p class="card-text2">
+              Kami menyediakan beberapa kursus gratis untuk menunjang
+              ketersediaan pendidikan untuk masyarakat kurang mampu
+            </p>
+          </div>
+          <div class="col">
+            <img src="img/2.png" alt="" />
+            <h6 class="card-title mt-1">Akses Selamanya</h6>
+            <p class="card-text2">
+              Semua kursus yang telah kamu daftar bisa diakses selamanya
+              sehingga belajar kamu lebih nyaman dan tidak terburu-buru
+            </p>
+          </div>
+          <div class="col">
+            <img src="img/3.png" alt="" />
+            <h6 class="card-title mt-1">Grup Konsultasi</h6>
+            <p class="card-text2">
+              Terdapat grup konsultasi yang berguna jika kamu ingin menanyakan
+              suatu pertanyaan dan kamu juga bisa mebuka diskusi baru
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img src="img/4.png" alt="" />
+            <h6 class="card-title mt-1">Sertifikat & Portofolio</h6>
+            <p class="card-text2">
+              Setelah menyelesaikan kursus kamu akan mendapatkan sertifikat
+              serta portofolio dari project kursus yang telah diselesaikan
+            </p>
+          </div>
+          <div class="col">
+            <img src="img/5.png" alt="" />
+            <h6 class="card-title mt-1">Belajar Lebih Terarah</h6>
+            <p class="card-text2">
+              Kursus menyediakan kursus dari level dasar hingga expert sehingga
+              semua bisa belajar dengan layanan yang kami sediakan
+            </p>
+          </div>
+          <div class="col">
+            <img src="img/6.png" alt="" />
+            <h6 class="card-title mt-1">Mentor Berpengalaman</h6>
+            <p class="card-text2">
+              Kami mempunyai Mentor berpengalaman yang diambil dari dunia
+              industri yang tak diragukan lagi pengalamannya
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer2">
+      <div class="footer-content">
+        <li class="nav-item2 ">
+          <a class="nav-link2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Sosial Media
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Instagram</a></li>
+            <li><a class="dropdown-item" href="#">Twitter</a></li>
+            <li><a class="dropdown-item" href="#">LinkendIn</a></li>
+          </ul>
+        </li>
+          <li class="nav-item2">
+            <a class="nav-link2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Program
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Merdeka Belajar</a></li>
+              <li><a class="dropdown-item" href="#">Finterpreneur</a></li>
+            </ul>
+          </li>
+          <li class="nav-item2">
+            <a class="nav-link2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dukungan
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Tentang Kami</a></li>
+              <li><a class="dropdown-item" href="#">Ketentuan</a></li>
+              <li><a class="dropdown-item" href="#">Kebijakan Privasi</a></li>
+            </ul>
+          </li>
+
+      </div>
+    <div class="phone2">
+      <div>
+        <ul>
+          <li>Email</li>
+          <h7>contact@website.com</h7>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>Telephone</li>
+          <h7>+6288 999 222 333</h7>
+        </ul>
+      </div>
+    </div>
+  </div>
+    <footer>
+      <h5>© Copyright EDUFREE 2023</h5>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -367,4 +661,6 @@
         crossorigin="anonymous"></script>
 </body>
 <script src="todos.js"></script>
+<script src="script.js"></script>
+<script src="dist/sweetalert2.all.min.js"></script>
 </html>
